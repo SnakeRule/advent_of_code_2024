@@ -1,0 +1,20 @@
+{
+  "name": "advent_of_code_2024",
+  "version": "1.0.0",
+  "description": "Advent of code 2024 solutions",
+  "main": "./build/index.js",
+  "scripts": {
+    "dev": "nodemon ./src/index.ts --watch ./src/*",
+    "start": "npx tsc && node build/index.js"
+  },
+  "repository": "https://github.com/SnakeRule/advent_of_code_2024.git",
+  "author": "Jere-Joonas Valtanen <jerevaltanen@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "nodemon": "^3.1.7",
+    "prettier": "3.4.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}
