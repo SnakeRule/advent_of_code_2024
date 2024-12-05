@@ -4,7 +4,7 @@
   "description": "Advent of code 2024 solutions",
   "main": "./build/index.js",
   "scripts": {
-    "dev": "nodemon ./src/index.ts --watch ./src/*",
+    "dev": "nodemon ./src/index.ts --watch ./src/",
     "start": "npx tsc && node build/index.js"
   },
   "repository": "https://github.com/SnakeRule/advent_of_code_2024.git",
