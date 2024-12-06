@@ -1,4 +1,3 @@
-import { readFile } from 'fs'
 import { readTextFile } from '../shared/shared'
 
 function calculateDistances(arr1: number[], arr2: number[]) {
@@ -6,7 +5,7 @@ function calculateDistances(arr1: number[], arr2: number[]) {
   arr2 = arr2.sort()
 
   let result = 0
-  for(let i = 0; i < arr1.length; i++) {
+  for (let i = 0; i < arr1.length; i++) {
     result += Math.max(arr1[i], arr2[i]) - Math.min(arr1[i], arr2[i])
   }
   return result
